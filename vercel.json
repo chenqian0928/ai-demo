@@ -1,4 +1,6 @@
 {
   "installCommand": "pnpm install",
-  "devCommand": "pnpm run vercel"
+  "buildCommand": "echo '跳过构建，无需打包'",
+  "devCommand": "pnpm run vercel",
+  "outputDirectory": ""
 }
